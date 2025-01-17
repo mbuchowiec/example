@@ -1,0 +1,18 @@
+[project]
+name = "example"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Matthew Buchowiec", email = "matthew.m.buchowiec@vanderbilt.edu" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+example = "example:main"
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.392.post0",
+]
